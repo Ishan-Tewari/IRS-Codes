@@ -83,9 +83,11 @@ def searchQuery(k, query):
 
   results = []
   cosine_sorted_index = cosine_values.argsort()[-k:][::-1]
+
   # print(cosine_sorted_index)
   for i in cosine_sorted_index:
-    results.append(('p3_d{}.txt'.format(i+1),cosine_values[i]))
+      if cosine_values[i] >= 0.01:
+          results.append(('p3_d{}.txt'.format(i+1),'{:.2f}'.format(cosine_values[i])))
 
   return results
 
@@ -110,7 +112,7 @@ def search():
 
   if not content:
     return render_template('index.html',content="No Results Found!")
-  return render_template('index.html',content=content[0])
+  return render_template('index.html',content=results)
 
 if __name__ == "__main__":
   app.run(debug=True)
