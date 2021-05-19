@@ -1,8 +1,0 @@
-The Wii is a video game created by Nintendo that uses a wireless controller to show the movements of your body, hands and legs on a television screen. It was first presented to the public in November 2006
-
-Wii controllers have many forms and shapes . For example, they can simulate the movement of a tennis racket, a golf club or other things. A fitness pad allows you to do exercises that a fitness trainer on the television screen shows you.
-
-The Wii turns a video game into a physical activity that is fun too. It is also used by doctors and therapists who show patients how to balance themselves or build up muscles after an operation or illness.
-
-But how does the Wii really work? There are chips, sensors and accelometres in the Wii remote that can record shifts and angles in your body movements. You can move it in all directions. When the body moves these changes are sent via Bluetooth to a console. You can shoot at something by pressing a button, move an object on the screen and do many other things with the remote.
-

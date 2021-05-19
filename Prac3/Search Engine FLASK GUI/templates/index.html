@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <title>My Search Engine</title>
+</head>
+
+<body bgcolor="#EDF5E1">
+
+	<h1 align="center">Search Engine</h1>
+
+    <div align="center">
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('search')}}"method="post">
+    	<input type="text" name="Search Text" placeholder="Enter Your Search" required="required" style="width: 500px; height: 20px;" />
+
+        <button type="submit">Search</button>
+    </form>
+    <br>
+    <br>
+    <p>{{ content }}</p>
+    </div>
+
+</body>
+</html>
